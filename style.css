@@ -1,14 +1,26 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Dancing+Script:wght@600&family=Fira+Sans+Condensed:wght@200&family=Indie+Flower&family=Lobster+Two:wght@700&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Dancing+Script:wght@600&family=Fira+Sans+Condensed:wght@200&family=Lobster+Two:wght@700&family=Major+Mono+Display&family=Parisienne&family=Rock+Salt&display=swap');
+
+body { background-image: url("https://a-static.besthdwallpaper.com/the-witcher-wolf-wallpaper-1600x900-81413_47.jpg");
+} 
+
+main#container { border: double grey 5em;
+    border-color: rgb(255, 255, 255);
+    border-width: 30px;
+
 }
 
-main#container {
+h1.titulo { font-family:'Courier New', Courier, monospace;
+    color: white ;
+    font-weight: bold;
+    font-size: 30px;
 }
 
-h1.titulo {
+p.frase { font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px;
 }
 
-p.frase {
-}
-
-p.autor {
+p.autor { color: white;
+    font-size: 20px;
 }
